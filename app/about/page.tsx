@@ -6,19 +6,19 @@ export default function About() {
       name: "Vasanth Parthasarathy",
       role: "Director & Founder",
       bio: "Former AI researcher at MIT with 15+ years of experience in machine learning and business transformation. Led multiple successful tech startups before founding Neolumina.",
-      image: "/vasanth.jpg"
+      image: "/neoluminawebsite/vasanth.jpg"
     },
     {
       name: "Sudharshan Aravamudan",
       role: "Director & Founder",
       bio: "Cloud architecture expert with a background in distributed systems. Previously led engineering teams at major tech companies, specializing in scalable infrastructure solutions.",
-      image: "/sudarshan.jpg"
+      image: "/neoluminawebsite/sudarshan.jpg"
     },
     {
       name: "Ravishankar Jayaraman",
       role: "Director & Founder",
       bio: "PhD in Computer Science with expertise in quantum computing and AI. Published author and speaker on emerging technologies and their business applications.",
-      image: "/ravishankar.jpg"
+      image: "/neoluminawebsite/ravishankar.jpg"
     },
   ];
 

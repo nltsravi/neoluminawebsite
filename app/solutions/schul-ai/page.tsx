@@ -10,7 +10,7 @@ export default function SchulAI() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative">
           <div className="text-center">
             <div className="flex justify-center mb-6">
-              <Image src="/SCHUL_LOGO.svg" alt="Schul.ai Logo" width={96} height={96} className="h-24 w-auto" />
+              <Image src="/neoluminawebsite/SCHUL_LOGO.svg" alt="Schul.ai Logo" width={96} height={96} className="h-24 w-auto" />
             </div>
             <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold mb-6">
               Schul.ai
