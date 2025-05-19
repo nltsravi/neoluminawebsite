@@ -1,22 +1,24 @@
+import Image from 'next/image';
+
 export default function About() {
   const founders = [
     {
       name: "Vasanth Parthasarathy",
       role: "Director & Founder",
       bio: "Former AI researcher at MIT with 15+ years of experience in machine learning and business transformation. Led multiple successful tech startups before founding Neolumina.",
-      image: "vasanth.jpg"
+      image: "/vasanth.jpg"
     },
     {
       name: "Sudharshan Aravamudan",
       role: "Director & Founder",
       bio: "Cloud architecture expert with a background in distributed systems. Previously led engineering teams at major tech companies, specializing in scalable infrastructure solutions.",
-      image: "sudarshan.jpg"
+      image: "/sudarshan.jpg"
     },
     {
       name: "Ravishankar Jayaraman",
       role: "Director & Founder",
       bio: "PhD in Computer Science with expertise in quantum computing and AI. Published author and speaker on emerging technologies and their business applications.",
-      image: "ravishankar.jpg"
+      image: "/ravishankar.jpg"
     },
   ];
 
@@ -44,11 +46,13 @@ export default function About() {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {founders.map((founder, index) => (
               <div key={index} className="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300">
-                <div className="aspect-w-1 aspect-h-1">
-                  <img
+                <div className="relative w-full h-64">
+                  <Image
                     src={founder.image}
                     alt={founder.name}
-                    className="w-full h-64 object-contain"
+                    fill
+                    className="object-contain"
+                    sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                   />
                 </div>
                 <div className="p-6">
@@ -68,7 +72,7 @@ export default function About() {
           <div className="text-center">
             <h2 className="text-3xl font-bold text-gray-900 mb-6">Our Mission</h2>
             <p className="text-lg text-gray-700 max-w-3xl mx-auto">
-              At Neolumina Tech Solutions, we're committed to pushing the boundaries of what's possible in technology. 
+              At Neolumina Tech Solutions, we&apos;re committed to pushing the boundaries of what&apos;s possible in technology. 
               Our diverse team of experts brings together decades of experience in AI, cloud computing, and digital transformation 
               to create solutions that drive real business value. We believe in the power of innovation to transform industries 
               and improve lives.
