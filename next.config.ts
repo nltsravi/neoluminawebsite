@@ -1,7 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   output: 'export',
-  basePath: '/neoluminawebsite',
+  basePath: '/',
   images: {
     unoptimized: true,
   },
