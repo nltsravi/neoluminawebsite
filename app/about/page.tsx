@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import HeroBanner from "../components/HeroBanner";
 
 export default function About() {
   const founders = [
@@ -25,9 +26,7 @@ export default function About() {
   return (
     <div className="bg-white">
       {/* Hero Section */}
-      <section className="relative bg-gradient-to-r from-[#7e2cfd] via-[#6555fb] to-[#26bdf2] text-white py-20">
-        <div className="absolute inset-0 bg-[url('/grid.svg')] opacity-10"></div>
-        <div className="absolute inset-0 bg-gradient-to-b from-black/20 to-transparent"></div>
+      <HeroBanner className="bg-gradient-to-r from-[#7e2cfd] via-[#6555fb] to-[#26bdf2] text-white py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative">
           <div className="text-center">
             <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold mb-6">
@@ -38,7 +37,7 @@ export default function About() {
             </p>
           </div>
         </div>
-      </section>
+      </HeroBanner>
 
       {/* Founders Grid */}
       <section className="py-16 bg-white">

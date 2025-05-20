@@ -3,6 +3,7 @@ import { Plus_Jakarta_Sans, Space_Grotesk } from "next/font/google";
 import Link from "next/link";
 import Image from "next/image";
 import "./globals.css";
+import HeroBanner from "./components/HeroBanner";
 
 const plusJakarta = Plus_Jakarta_Sans({
   subsets: ["latin"],
@@ -94,7 +95,7 @@ export default function RootLayout({
           </div>
         </nav>
         {children}
-        <footer className="bg-gradient-to-r from-[#7e2cfd] to-[#26bdf2] text-white pt-16 pb-12">
+        <HeroBanner className="bg-gradient-to-r from-[#7e2cfd] to-[#26bdf2] text-white pt-16 pb-12">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-8">
               {/* Quick Links */}
@@ -154,7 +155,7 @@ export default function RootLayout({
               <p>&copy; {new Date().getFullYear()} Neolumina Tech Solutions. All rights reserved.</p>
             </div>
           </div>
-        </footer>
+        </HeroBanner>
       </body>
     </html>
   );

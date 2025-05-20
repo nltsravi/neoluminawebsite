@@ -1,30 +1,45 @@
 import Image from "next/image";
+import HeroBanner from "./components/HeroBanner";
 
 export default function Home() {
   return (
     <div className="bg-white">
       {/* Hero Section */}
-      <section className="relative bg-gradient-to-r from-[#7e2cfd] via-[#6555fb] to-[#26bdf2] text-white py-20">
-        <div className="absolute inset-0 bg-[url('/grid.svg')] opacity-10"></div>
-        <div className="absolute inset-0 bg-gradient-to-b from-black/20 to-transparent"></div>
+      <HeroBanner className="bg-gradient-to-r from-[#7e2cfd] via-[#6555fb] to-[#26bdf2] text-white py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative">
-          <div className="text-center">
-            <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold mb-6">
-              Neolumina Tech Solutions
-            </h1>
-            <p className="text-xl sm:text-2xl text-white/90 max-w-3xl mx-auto">
-              Illuminating the future through innovative technology solutions
-            </p>
+          <div className="flex flex-col md:flex-row items-center justify-between gap-8">
+            <div className="w-full text-center">
+              <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold mb-6">
+                Neolumina Tech Solutions
+              </h1>
+              <p className="text-xl sm:text-2xl text-white/90 max-w-3xl mx-auto">
+                Illuminating the future through innovative technology solutions
+              </p>
+            </div>
           </div>
         </div>
-      </section>
+      </HeroBanner>
 
       {/* About Section */}
       <section className="py-16 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <p className="text-lg text-gray-700 max-w-3xl mx-auto text-center">
-            We are a team of passionate technologists dedicated to transforming businesses through innovative solutions. Our expertise spans across artificial intelligence, cloud computing, and digital transformation, helping organizations navigate the complex landscape of modern technology.
-          </p>
+          <div className="flex flex-col md:flex-row items-center gap-12">
+            <div className="md:w-1/2">
+              <p className="text-lg text-gray-700 max-w-3xl mx-auto md:mx-0 text-center md:text-left">
+                We are a team of passionate technologists dedicated to transforming businesses through innovative solutions. Our expertise spans across artificial intelligence, cloud computing, and digital transformation, helping organizations navigate the complex landscape of modern technology.
+              </p>
+            </div>
+            <div className="md:w-1/2 flex justify-center">
+              <Image
+                src="/neoluminawebsite/neo-home.jpeg"
+                alt="AI-powered solutions illustration"
+                width={500}
+                height={350}
+                className="rounded-xl shadow-lg object-contain max-h-[350px] w-auto"
+                priority
+              />
+            </div>
+          </div>
         </div>
       </section>
 
