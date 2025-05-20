@@ -31,7 +31,7 @@ export default function Home() {
             </div>
             <div className="md:w-1/2 flex justify-center">
               <Image
-                src="/neoluminawebsite/neo-home.jpeg"
+                src="/neo-home.jpeg"
                 alt="AI-powered solutions illustration"
                 width={500}
                 height={350}
@@ -49,10 +49,10 @@ export default function Home() {
           <h2 className="text-3xl font-bold text-center text-gray-900 mb-12">Our Solutions</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {/* Feature 1 */}
-            <a href="/neoluminawebsite/solutions/schul-ai" className="bg-white rounded-lg shadow-lg p-6 hover:shadow-xl transition-shadow duration-300">
+            <a href="/solutions/schul-ai" className="bg-white rounded-lg shadow-lg p-6 hover:shadow-xl transition-shadow duration-300">
               <div className="flex flex-col items-center mb-4">
                 <div className="flex items-center justify-center mb-2">
-                  <Image src="/neoluminawebsite/SCHUL_LOGO.svg" alt="Schul.ai Logo" width={48} height={48} className="h-12 w-auto mr-3" />
+                  <Image src="/SCHUL_LOGO.svg" alt="Schul.ai Logo" width={48} height={48} className="h-12 w-auto mr-3" />
                   <span className="text-2xl font-bold text-[#7e2cfd]">Schul.ai</span>
                 </div>
               </div>
@@ -63,7 +63,7 @@ export default function Home() {
             </a>
 
             {/* Feature 2 */}
-            <a href="/neoluminawebsite/solutions/acme-platform" className="bg-white rounded-lg shadow-lg p-6 hover:shadow-xl transition-shadow duration-300">
+            <a href="/solutions/acme-platform" className="bg-white rounded-lg shadow-lg p-6 hover:shadow-xl transition-shadow duration-300">
               <div className="flex flex-col items-center mb-4">
                 <div className="flex items-center justify-center mb-2">
                   <div className="h-12 w-12 rounded-full bg-gradient-to-br from-[#596cf9] to-[#448bf7] flex items-center justify-center mr-3">
@@ -81,7 +81,7 @@ export default function Home() {
             </a>
 
             {/* Feature 3 */}
-            <a href="/neoluminawebsite/solutions/it-infrastructure" className="bg-white rounded-lg shadow-lg p-6 hover:shadow-xl transition-shadow duration-300">
+            <a href="/solutions/it-infrastructure" className="bg-white rounded-lg shadow-lg p-6 hover:shadow-xl transition-shadow duration-300">
               <div className="flex flex-col items-center mb-4">
                 <div className="flex items-center justify-center mb-2">
                   <div className="h-12 w-12 rounded-full bg-gradient-to-br from-[#6555fb] to-[#5176f8] flex items-center justify-center mr-3">

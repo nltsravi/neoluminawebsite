@@ -27,7 +27,7 @@ export default function Contact() {
           {/* Left Column: Image */}
           <div className="rounded-lg overflow-hidden">
             <Image 
-              src="/neoluminawebsite/contact-us.jpg" 
+              src="/contact-us.jpg" 
               alt="Contact Us" 
               width={600} 
               height={700} 
