@@ -50,9 +50,6 @@ export default function About() {
 
 Our leadership has built and scaled high-impact solutions across diverse domains — including education, media, logistics, manufacturing, supply chain, insurance, public-sector enterprise tech, and digital commerce — all grounded in operational realities and real-world execution across global markets.
             </p>
-            <p className="text-gray-700 mb-6">
-              Our leadership has delivered scalable, high-impact solutions across education, media, logistics, manufacturing, supply chain, public-sector enterprise tech, and digital commerce—grounded in real-world execution and global market experience.
-            </p>
             <p className="text-gray-700">
               At NTS, we create technology with purpose—enhancing human performance, maintaining control, and delivering measurable impact across the industries we serve. Whether empowering educators, optimizing supply chains, or enabling digital-first manufacturing, our platforms combine intelligent automation with human oversight to solve complex, real-world challenges.
             </p>
